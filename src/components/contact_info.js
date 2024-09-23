@@ -12,7 +12,7 @@ export default function Contact_info() {
                     <p class="description">
                         サービスに関するお問い合わせやご相談は、<br/>以下のフォームよりお気軽にご連絡ください。
                     </p>
-                    <form method="POST" target="hidden_iframe" netlify>
+                    <form method="POST" netlify>
                         <div class="form-group">
                             <label for="company">会社名</label>
                             <input type="text" id="company" name="company"></input>
