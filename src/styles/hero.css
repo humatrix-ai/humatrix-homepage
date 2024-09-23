@@ -1,0 +1,21 @@
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../static/hero-image.jpg");
+    background-size: 180%;
+    background-position: center;
+    padding-top: 80px;
+}
+.hero-content {
+    max-width: 1200px; /*修正*/
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+.hero p {
+    margin-bottom: 30px;
+    color: #333;
+}

@@ -1,0 +1,19 @@
+.achievements-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.achievement-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+.achievement-item img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
