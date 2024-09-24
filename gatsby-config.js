@@ -8,5 +8,16 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  siteMetadata: {
+    siteUrl: `https://www.example.com`,
+  },
+  plugins: [`gatsby-plugin-sitemap`,'gatsby-plugin-robots-txt',
+    {
+    resolve: `gatsby-plugin-canonical-urls`,
+    options: {
+      siteUrl: `https://jujekebab.com`,
+      stripQueryString: true,
+    },
+  },
+],
 }
