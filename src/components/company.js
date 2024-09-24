@@ -2,7 +2,7 @@
 import React from "react"
 import "../styles/all.css"
 import "../styles/company.css"
-import img from "../../static/kentohonda.jpg"
+import img from "../../static/kentohonda.webp"
 
 export default function Company() {
     return (

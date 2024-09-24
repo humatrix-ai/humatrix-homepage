@@ -1,9 +1,9 @@
 // src/components/hero.js
 import React from "react"
 import "../styles/services.css"
-import img from "../../static/dx.jpg"
-import img2 from "../../static/system-develop.jpg"
-import img3 from "../../static/consulting.jpg"
+import img from "../../static/dx.webp"
+import img2 from "../../static/system-develop.webp"
+import img3 from "../../static/consulting.webp"
 
 
 export default function Services() {
