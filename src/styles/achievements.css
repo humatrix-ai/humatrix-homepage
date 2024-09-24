@@ -17,3 +17,6 @@
     object-fit: contain;
     margin-right: 20px;
 }
+.achievement-item h3{
+    margin-bottom: 10px;
+}

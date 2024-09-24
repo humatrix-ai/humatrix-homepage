@@ -12,7 +12,9 @@ export default function Contact_info() {
                     <p class="description">
                         サービスに関するお問い合わせやご相談は、<br/>以下のフォームよりお気軽にご連絡ください。
                     </p>
-                    <form method="POST" target="hidden_iframe" netlify>
+                    <form name="contact" data-netlify="true" method="POST" action="thanks" netlify>
+                        <input type="hidden" name="form-name" value="contact"/>
+                        <input type="hidden" name="bot-field" />
                         <div class="form-group">
                             <label for="company">会社名</label>
                             <input type="text" id="company" name="company"></input>
@@ -39,7 +41,7 @@ export default function Contact_info() {
                                 <Link to="/privacy_page"><a>プライバシーポリシー</a></Link>に同意する
                             </label>
                         </div> 
-                        <button type="submit" class="submit-btn">送信する</button>
+                       <button type="submit" class="submit-btn">送信する</button>
                     </form>
                 </section>
             </main>
