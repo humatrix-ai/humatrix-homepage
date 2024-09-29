@@ -1,7 +1,6 @@
 // src/components/hero.js
 import React from "react"
 import "../styles/privacy.css"
-import { Link } from "gatsby"
 
 export default function Privacy() {
     return (

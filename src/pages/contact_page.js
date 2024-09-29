@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import Contact_info from "../components/contact_info"
+import ContactInfo from "../components/ContactInfo"
 
 export default function Contact_page() {
     return (
         <Layout>
-            <Contact_info />
+            <ContactInfo />
         </Layout>
     )
 }

@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import Contact_confirm from "../components/contact_confirm"
+import ContactConfirm from "../components/ContactConfirm"
 
 export default function Confirm_page() {
     return (
         <Layout>
-            <Contact_confirm />
+            <ContactConfirm />
         </Layout>
     )
 }

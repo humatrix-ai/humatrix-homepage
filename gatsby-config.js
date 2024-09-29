@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.example.com`,
+    siteUrl: `https://humatrix.jp`,
   },
   plugins: ['gatsby-plugin-react-helmet','gatsby-plugin-robots-txt',
     {
@@ -22,7 +22,32 @@ module.exports = {
   {
     resolve: `gatsby-plugin-sitemap`,
     options: {
-      output: `/sitemap.xml`
+      query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+        }
+      `,
+      resolvePages: ({ allSitePage: { nodes } }) => {
+        return nodes.map(page => {
+          return { ...page };
+        });
+      },
+      serialize: ({ path }) => {
+        return {
+          url: path,
+          changefreq: `daily`,
+          priority: 0.7,
+        };
+      }
     }
   }
 ],

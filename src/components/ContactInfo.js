@@ -1,9 +1,9 @@
 // src/components/hero.js
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/contact_info.css"
+import "../styles/contactInfo.css"
 
-export default function Contact_info() {
+export default function ContactInfo() {
     return (
         <div className="contact_info">
             <main class="contact-container">

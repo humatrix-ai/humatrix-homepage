@@ -1,9 +1,9 @@
 // src/components/hero.js
 import React from "react"
-import "../styles/contact_confirm.css"
+import "../styles/ContactConfirm.css"
 import { Link } from "gatsby"
 
-export default function Contact_confirm() {
+export default function ContactConfirm() {
     return (
         <div className="contact">
             <div class="contact_confirm_container" role="main">

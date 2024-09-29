@@ -2,7 +2,6 @@
 import React from "react"
 import "../styles/all.css"
 import "../styles/news.css"
-import Logo from "../../static/century-systems-logo.gif"
 
 export default function News() {
     return (
