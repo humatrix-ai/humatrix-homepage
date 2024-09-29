@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.example.com`,
   },
-  plugins: [`gatsby-plugin-sitemap`,'gatsby-plugin-robots-txt',
+  plugins: ['gatsby-plugin-react-helmet','gatsby-plugin-robots-txt',
     {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
@@ -19,5 +19,11 @@ module.exports = {
       stripQueryString: true,
     },
   },
+  {
+    resolve: `gatsby-plugin-sitemap`,
+    options: {
+      output: `/sitemap.xml`
+    }
+  }
 ],
 }
