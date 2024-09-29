@@ -1,7 +1,7 @@
 // src/components/hero.js
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/contactInfo.css"
+import "../styles/ContactInfo.css"
 
 export default function ContactInfo() {
     return (
