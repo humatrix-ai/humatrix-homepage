@@ -46,11 +46,11 @@ export default function Company() {
                     </tr>
                     <tr>
                         <th>設立</th>
-                        <td>2024年6月12日</td>
+                        <td>2024年6月</td>
                     </tr>
                     <tr>
-                        <th>資本金</th>
-                        <td>30万円</td>
+                        <th>主要取引銀行</th>
+                        <td>三井住友銀行</td>
                     </tr>
                     <tr>
                         <th>代表者</th>
@@ -60,9 +60,8 @@ export default function Company() {
                         <th>事業内容</th>
                         <td>
                             ・AIソリューションの開発・提供<br/>
-                            ・AI技術を活用したコンサルティング<br/>
-                            ・業務効率化支援<br/>
-                            ・新規事業開発支援<br/>
+                            ・AI・生成AI導入コンサルティング<br/>
+                            ・AI・生成AI研修の実施<br/>
                         </td>
                     </tr>
                     <tr>
