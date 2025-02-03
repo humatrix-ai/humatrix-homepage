@@ -3,7 +3,7 @@ import React from "react"
 import "../styles/all.css"
 import "../styles/achievements.css"
 import Logo_cs from "../../static/century-systems-logo.gif"
-import Logo_ai from "/../../static/Asahi-Insatu-logo.png"
+import Logo_ai from "../../static/asahi-insatu-logo.png"
 
 export default function Achievements() {
     return (
