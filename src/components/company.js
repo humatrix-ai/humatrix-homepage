@@ -42,7 +42,7 @@ export default function Company() {
                 <table>
                     <tr>
                         <th>会社名</th>
-                        <td>株式会社HUMATRIX</td>
+                        <td>ヒューマトリックス株式会社</td>
                     </tr>
                     <tr>
                         <th>設立</th>
