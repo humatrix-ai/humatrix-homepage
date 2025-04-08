@@ -8,34 +8,6 @@ export default function Company() {
     return (
         <div className="company">
             <h1>会社情報</h1>
-        
-            <section class="company-info">
-                <h2>代表紹介</h2>
-                <div class="message">
-                    <div class="message-image">
-                        <img src={img} alt="代表取締役社長の写真"></img>
-                    </div>
-                    <div class="message-text">
-                        <h3 class="address">
-                        代表取締役
-                        </h3>
-                        <h3 class="ceo-name">
-                            本田 健人
-                        </h3>
-                        <br/>
-                        <h3 class="address">
-                        経歴
-                        </h3>
-                        <p>
-                            筑波大学情報学群知識情報・図書館学類に在籍中(2024/09/23時点)。情報探索・グラフ理論等に関するテーマで研究を実施している。<br/>
-                            生成AIを主題としたビジネスコンテストにて、最優秀賞を受賞。<br/>
-                            また、大手リスキリングサイトにおける生成AI教材の構成案作成・コンテンツ作成を担当した経験を有する。<br/>
-                            東京大学寄附講座「GCI」を修了した後、ヒューマトリックス株式会社を共同創業。<br/>
-                        </p>
-                        
-                    </div>
-                </div>
-            </section>
 
             <section class="company-info">
                 <h2>会社概要</h2>
@@ -69,6 +41,34 @@ export default function Company() {
                         <td>〒113-0033<br/>東京都文京区本郷６丁目２５番１４号 宗文館ビル 3F</td>
                     </tr>
                 </table>
+            </section>
+
+            <section class="company-info">
+                <h2>代表紹介</h2>
+                <div class="message">
+                    <div class="message-image">
+                        <img src={img} alt="代表取締役社長の写真"></img>
+                    </div>
+                    <div class="message-text">
+                        <h3 class="address">
+                        代表取締役
+                        </h3>
+                        <h3 class="ceo-name">
+                            本田 健人
+                        </h3>
+                        <br/>
+                        <h3 class="address">
+                        経歴
+                        </h3>
+                        <p>
+                            筑波大学大学院 情報学学位プログラムに在籍中(2025/04/08時点)。情報探索・グラフ理論等に関するテーマで研究を実施している。<br/>
+                            生成AIを主題としたビジネスコンテストにて、最優秀賞を受賞。<br/>
+                            大手リスキリングサイトにおける生成AI教材の構成案作成・コンテンツ作成を担当した経験を有する。<br/>
+                            東京大学寄附講座GCIを修了した後、ヒューマトリックス株式会社を共同創業。<br/>
+                        </p>
+                        
+                    </div>
+                </div>
             </section>
         </div>
     )
